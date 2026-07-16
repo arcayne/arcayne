@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Joan De Arcayne — selected product and engineering work</title>
+  <desc id="desc">A dark editorial banner highlighting work across products, AI agents, crypto infrastructure, and delivery systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b10"/>
+      <stop offset="0.52" stop-color="#0d1320"/>
+      <stop offset="1" stop-color="#080b10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(1250 135) rotate(135) scale(510 350)">
+      <stop stop-color="#7bf4db" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7bf4db" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(230 30) rotate(55) scale(520 350)">
+      <stop stop-color="#8ea2ff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#8ea2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#d7ff4f"/>
+      <stop offset=".5" stop-color="#7bf4db"/>
+      <stop offset="1" stop-color="#c9d3ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="620" rx="38" fill="url(#bg)"/>
+  <rect width="1600" height="620" rx="38" fill="url(#glowA)"/>
+  <rect width="1600" height="620" rx="38" fill="url(#glowB)"/>
+  <g opacity=".17" stroke="#cbd5e1" stroke-width="1">
+    <path d="M1025 85 1170 176 1330 105 1480 220 1382 376 1185 342 1088 492 952 368Z"/>
+    <path d="M1170 176 1185 342M1330 105 1382 376M1025 85 1088 492M1480 220 952 368"/>
+  </g>
+  <g fill="#d7ff4f">
+    <circle cx="1025" cy="85" r="5"/><circle cx="1170" cy="176" r="4"/><circle cx="1330" cy="105" r="5"/><circle cx="1480" cy="220" r="4"/><circle cx="1382" cy="376" r="5"/><circle cx="1185" cy="342" r="4"/><circle cx="1088" cy="492" r="5"/><circle cx="952" cy="368" r="4"/>
+  </g>
+  <g transform="translate(88 78)">
+    <rect width="62" height="62" rx="18" fill="#d7ff4f"/>
+    <text x="31" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#0a0e13">JD</text>
+    <text x="82" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="21" fill="#f4f6f8">JOAN DE ARCAYNE</text>
+    <text x="82" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" letter-spacing="2.2" fill="#9ea8b6">PRODUCT LEADER · HANDS-ON BUILDER</text>
+  </g>
+  <g transform="translate(88 220)">
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="68" letter-spacing="-3" fill="#f4f6f8">
+      <tspan x="0" y="0">I turn frontier tech into</tspan>
+      <tspan x="0" y="78" fill="url(#accent)">products that ship.</tspan>
+    </text>
+    <text x="0" y="154" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#aeb8c5">Selected work across on-chain agent identity, AI-native developer tools,</text>
+    <text x="0" y="186" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#aeb8c5">trading systems, and evidence-first product delivery.</text>
+  </g>
+  <g transform="translate(88 500)" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">
+    <rect width="210" height="48" rx="24" fill="#d7ff4f"/><text x="105" y="30" text-anchor="middle" fill="#0a0e13">EXPLORE THE WORK →</text>
+    <g transform="translate(230)"><rect width="162" height="48" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".17"/><text x="81" y="30" text-anchor="middle" fill="#dbe2ea">AI AGENTS</text></g>
+    <g transform="translate(408)"><rect width="176" height="48" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".17"/><text x="88" y="30" text-anchor="middle" fill="#dbe2ea">CRYPTO INFRA</text></g>
+  </g>
+  <rect x="1.5" y="1.5" width="1597" height="617" rx="36.5" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="3"/>
+</svg>
