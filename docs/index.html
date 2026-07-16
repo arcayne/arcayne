@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Selected product and engineering work by Joan De Arcayne — on-chain agent identity, AI-native developer tooling, and guarded autonomous systems." />
+  <meta name="theme-color" content="#080b10" />
+  <title>Joan De Arcayne — Selected Systems</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23080b10'/%3E%3Cpath d='M20 16h10v23c0 8-5 13-13 13h-5v-9h4c3 0 4-2 4-5V16Zm17 0h9c10 0 16 7 16 18S56 52 46 52h-9V16Zm9 9v18c4 0 6-3 6-9s-2-9-6-9Z' fill='%23d7ff4f'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <div class="nav-wrap">
+    <div class="shell">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Joan De Arcayne home">
+          <span class="brand-mark">JD</span>
+          <span>Joan De Arcayne</span>
+        </a>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#approach">Approach</a>
+          <a href="#" class="print-link" data-print>Brief</a>
+          <a class="nav-cta" href="mailto:arcayne@gmail.com">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <main id="top">
+    <div class="shell">
+      <header class="hero">
+        <div class="hero-content reveal">
+          <div class="eyebrow">Product leader × hands-on builder</div>
+          <h1>I turn frontier tech into <span class="hero-highlight">products that ship.</span></h1>
+          <p class="hero-copy">I lead crypto products and stay close to the work. These projects show how I turn new technology—especially AI agents and on-chain systems—into tools people can actually use.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Explore selected work
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="button" href="https://github.com/arcayne" target="_blank" rel="noreferrer">GitHub
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <div class="proof-strip" aria-label="Portfolio themes">
+            <div class="proof"><strong>Public work</strong><span>Real, open-source contributions across Injective products and developer tools.</span></div>
+            <div class="proof"><strong>AI agents</strong><span>Identity, reputation and tools that let agents interact with real products.</span></div>
+            <div class="proof"><strong>Built end to end</strong><span>From the original product idea through implementation, testing and launch.</span></div>
+          </div>
+        </div>
+
+        <div class="system-visual reveal" aria-label="Animated system diagram connecting product, agents, protocol, and execution">
+          <canvas id="network" aria-hidden="true"></canvas>
+          <div class="visual-fade" aria-hidden="true"></div>
+          <div class="core"><div><b>SHIP</b><small>with evidence</small></div></div>
+          <div class="node n1"><i></i>Product</div>
+          <div class="node n2"><i></i>Agents</div>
+          <div class="node n3"><i></i>Protocol</div>
+          <div class="node n4"><i></i>Execution</div>
+          <div class="visual-caption"><p>I connect product thinking, technical decisions and execution—and then verify that the result works.</p><span class="signal">Selected systems / 2026</span></div>
+        </div>
+      </header>
+    </div>
+
+    <section id="work">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">Selected work</div>
+            <h2>Systems, not demos.</h2>
+          </div>
+          <div>
+            <p class="section-copy">The public Injective projects show how I turn emerging technology into products developers can actually use. The private projects show the same approach applied end to end, from product idea to a working system.</p>
+            <div class="filters" aria-label="Filter projects" style="margin-top:16px">
+              <button class="filter active" data-filter="all">All</button>
+              <button class="filter" data-filter="public">Public</button>
+              <button class="filter" data-filter="private">Private</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-grid">
+          <article class="project-card featured public reveal" data-category="public">
+            <div class="card-top"><span class="status">Public · Shipped</span><span class="index">01</span></div>
+            <h3 class="project-title">Injective Agent Identity Stack</h3>
+            <p class="project-summary">Developer tools that give AI agents a verifiable identity on Injective. Builders can register an agent, attach its wallet and public profile, and make its services and reputation discoverable.</p>
+            <p class="role">Role <span>— defined the product direction and worked directly on the implementation</span></p>
+            <div class="feature-map" aria-label="Identity stack architecture">
+              <div><b>SDK + CLI</b><small>Register and manage agents from code or a terminal</small></div>
+              <div><b>Agent cards</b><small>A public profile explaining what each agent does</small></div>
+              <div><b>Wallet links</b><small>Proof that a wallet belongs to the agent</small></div>
+              <div><b>Discovery</b><small>Find agents and review their track record</small></div>
+            </div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">ERC-8004</span><span class="tag">TypeScript</span><span class="tag">EIP-712</span><span class="tag">IPFS</span><span class="tag">DX</span></div>
+              <div class="card-links">
+                <a class="icon-link" href="https://github.com/InjectiveLabs/injective-agent-sdk" target="_blank" rel="noreferrer" aria-label="View Injective Agent SDK on GitHub"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a class="icon-link" href="https://agents.injective.com/" target="_blank" rel="noreferrer" aria-label="Open the Injective Agent Registry"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M4 12h16M12 4c2.2 2.2 3.4 4.9 3.4 8S14.2 17.8 12 20c-2.2-2.2-3.4-4.9-3.4-8S9.8 6.2 12 4Z" stroke="currentColor" stroke-width="1.7"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card side public reveal" data-category="public">
+            <div class="card-top"><span class="status review">Public · Under review</span><span class="index">02</span></div>
+            <h3 class="project-title">Injective MCP Tools for AI Agents</h3>
+            <p class="project-summary">A set of tools that lets AI assistants create, find and manage Injective agent identities directly from a conversation or automated workflow. It connects the identity system to Claude and other MCP-compatible clients.</p>
+            <p class="role">Contribution <span>— designed and built the complete identity and reputation integration</span></p>
+            <div class="metric-stack">
+              <div class="metric-row"><span>Tools added</span><strong>8</strong></div>
+              <div class="metric-row"><span>Tests passing on the branch</span><strong>321</strong></div>
+            </div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">MCP</span><span class="tag">Agent SDK</span><span class="tag">Reputation</span></div>
+              <div class="card-links"><a class="icon-link" href="https://github.com/InjectiveLabs/mcp-server/pull/11" target="_blank" rel="noreferrer" aria-label="View MCP identity pull request"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+            </div>
+          </article>
+
+          <article class="project-card half public reveal" data-category="public">
+            <div class="card-top"><span class="status">Public · Shipped</span><span class="index">03</span></div>
+            <h3 class="project-title">Launching New Helix Markets</h3>
+            <p class="project-summary">Launch work that made new USDC grid-trading markets available in Helix. I corrected market names, linked each market to the right on-chain contract, and updated the files used by production and staging.</p>
+            <p class="role">Role <span>— product lead working directly in the launch path</span></p>
+            <div class="stack-flow"><span class="flow-item">Add markets</span><span class="flow-arrow">→</span><span class="flow-item">Link contracts</span><span class="flow-arrow">→</span><span class="flow-item">Verify data</span><span class="flow-arrow">→</span><span class="flow-item">Launch</span></div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">Helix</span><span class="tag">Grid trading</span><span class="tag">USDC</span></div>
+              <div class="card-links">
+                <a class="icon-link" href="https://github.com/InjectiveLabs/injective-lists/pull/402" target="_blank" rel="noreferrer" aria-label="View Injective lists pull request 402"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a class="icon-link" href="https://github.com/InjectiveLabs/injective-lists/pull/403" target="_blank" rel="noreferrer" aria-label="View Injective lists pull request 403"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card half public reveal" data-category="public">
+            <div class="card-top"><span class="status">Public · Personal</span><span class="index">04</span></div>
+            <h3 class="project-title">Agentic Delivery Playbook</h3>
+            <p class="project-summary">A practical playbook for using AI agents to deliver real product and engineering work safely. It helps teams choose the right level of control, verify the result and keep a clear record of what changed.</p>
+            <p class="role">Role <span>— creator</span></p>
+            <div class="stack-flow"><span class="flow-item">Assess task</span><span class="flow-arrow">→</span><span class="flow-item">Choose controls</span><span class="flow-arrow">→</span><span class="flow-item">Verify work</span><span class="flow-arrow">→</span><span class="flow-item">Keep evidence</span></div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">AI delivery</span><span class="tag">Codex</span><span class="tag">Controls</span></div>
+              <div class="card-links"><a class="icon-link" href="https://github.com/arcayne/agentic-delivery-playbook" target="_blank" rel="noreferrer" aria-label="View Agentic Delivery Playbook on GitHub"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+            </div>
+          </article>
+
+          <article class="project-card half private reveal" data-category="private">
+            <div class="card-top"><span class="status private-status">Private · Access shared</span><span class="index">05</span></div>
+            <h3 class="project-title">Knowledge Bits</h3>
+            <p class="project-summary">An AI content production system that turns a brief and trusted sources into a complete, review-ready package: research, written content, media, quality checks and final delivery. Every source and approval remains traceable.</p>
+            <p class="role">Role <span>— designed the product, architecture and implementation</span></p>
+            <div class="stack-flow"><span class="flow-item">Research</span><span class="flow-arrow">→</span><span class="flow-item">Draft</span><span class="flow-arrow">→</span><span class="flow-item">Check</span><span class="flow-arrow">→</span><span class="flow-item">Create media</span><span class="flow-arrow">→</span><span class="flow-item">Approve</span><span class="flow-arrow">→</span><span class="flow-item">Deliver</span></div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">Evidence</span><span class="tag">Human review</span><span class="tag">Workers</span><span class="tag">Postgres</span></div>
+              <div class="card-links"><a class="icon-link" href="https://github.com/arcayne/Knowledge-Bits" target="_blank" rel="noreferrer" aria-label="Open private Knowledge Bits repository"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+            </div>
+          </article>
+
+          <article class="project-card half private reveal" data-category="private">
+            <div class="card-top"><span class="status private-status">Private · Access on request</span><span class="index">06</span></div>
+            <h3 class="project-title">Farming — Guarded Trading Copilot</h3>
+            <p class="project-summary">A trading copilot that first observes and proposes actions, then requires human approval before it can execute. It is designed to make automation useful without giving an agent unchecked control over funds.</p>
+            <p class="role">Role <span>— designed the product, safety model and implementation</span></p>
+            <div class="stack-flow"><span class="flow-item">Analyze</span><span class="flow-arrow">→</span><span class="flow-item">Propose</span><span class="flow-arrow">→</span><span class="flow-item">Approve</span><span class="flow-arrow">→</span><span class="flow-item">Execute</span><span class="flow-arrow">→</span><span class="flow-item">Record</span></div>
+            <div class="card-bottom">
+              <div class="tags"><span class="tag">Trading</span><span class="tag">Shadow mode</span><span class="tag">Approvals</span><span class="tag">Safety</span></div>
+              <div class="card-links"><a class="icon-link" href="https://github.com/arcayne/Farming" target="_blank" rel="noreferrer" aria-label="Open private Farming repository"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5h11v11M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach">
+      <div class="shell">
+        <div class="approach-wrap reveal">
+          <div class="approach-grid">
+            <div class="approach-intro">
+              <div class="section-kicker">Operating style</div>
+              <h2>Strategy close to execution.</h2>
+              <p>I am most effective when product judgment, technical fluency and delivery ownership live in the same loop. The goal is not to write more artifacts. It is to make better decisions and turn them into working systems.</p>
+            </div>
+            <div class="principles">
+              <div class="principle"><span class="principle-num">01</span><div><h3>Make the product idea concrete</h3><p>Turn new technology into a clear user problem, a useful outcome, and a simple measure of success.</p></div></div>
+              <div class="principle"><span class="principle-num">02</span><div><h3>Build one complete path</h3><p>Make the full user journey work in reality before polishing disconnected pieces.</p></div></div>
+              <div class="principle"><span class="principle-num">03</span><div><h3>Prove that it works</h3><p>Use tests, visible system state, and human approval where the consequences are meaningful.</p></div></div>
+            </div>
+          </div>
+          <div class="operating-line" aria-label="Four-stage operating model">
+            <div class="op-step"><small>01 / FRAME</small><b>Clarify</b><span>Who it helps, what changes, and what it may do.</span></div>
+            <div class="op-step"><small>02 / BUILD</small><b>Integrate</b><span>Build the smallest complete user journey.</span></div>
+            <div class="op-step"><small>03 / PROVE</small><b>Validate</b><span>Test the happy path and how it fails.</span></div>
+            <div class="op-step"><small>04 / SHIP</small><b>Operate</b><span>Ship, learn, and improve the product.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="shell">
+        <div class="cta-panel reveal">
+          <div>
+            <div class="section-kicker">Continue the conversation</div>
+            <h2>I’m at my best where product judgment and technical execution meet.</h2>
+            <p>The public repositories are linked above. I can grant access to Knowledge Bits and Farming for a closer technical review.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="button primary" href="mailto:arcayne@gmail.com">Email Joan
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 7.5 12 13l7-5.5M5 6h14v12H5V6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="button" href="#" data-print>Save as PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <span>© 2026 Joan De Arcayne · Selected systems</span>
+      <span><a href="https://github.com/arcayne" target="_blank" rel="noreferrer">GitHub</a> · <a href="mailto:arcayne@gmail.com">Email</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
