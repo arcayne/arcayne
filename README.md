@@ -27,12 +27,6 @@ A set of tools that lets AI assistants create, find and manage Injective agent i
 
 **My contribution:** Designed and built the identity and reputation integration. The public pull request contains eight tools and a branch test suite with 321 passing tests. **Status: under review.**
 
-### Helix Market Launches
-
-Hands on launch work that made new USDC grid trading markets available in Helix. I corrected market names, linked each market to the right contract on chain and updated the files used by production and staging.
-
-**Public examples:** [market mapping update](https://github.com/InjectiveLabs/injective-lists/pull/402) · [seven new USDC markets](https://github.com/InjectiveLabs/injective-lists/pull/403)
-
 ### Injective Product OS
 
 An internal AI native product operating system that helps teams move from research and opportunity assessment to product requirements, decisions and delivery updates with a consistent quality bar.
