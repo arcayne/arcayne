@@ -5,6 +5,7 @@
 
   const productOsStyles = document.createElement('style');
   productOsStyles.textContent = `
+    [data-print]{display:none!important;}
     .product-os-strip{grid-column:span 12;min-height:0;padding:28px 30px;background:linear-gradient(115deg,rgba(142,162,255,.1),rgba(15,22,31,.96) 42%,rgba(123,244,219,.07));}
     .product-os-strip::before{width:430px;height:430px;top:-260px;right:-90px;background:radial-gradient(circle,rgba(142,162,255,.18),transparent 66%);}
     .product-os-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(380px,.92fr);gap:38px;align-items:center;}
@@ -26,6 +27,8 @@
     @media print{.product-os-strip{padding:28px!important;}.product-os-system{background:#fff!important;}.product-os-outcome{color:#10151b!important;background:#edf0f4!important;}}
   `;
   document.head.appendChild(productOsStyles);
+
+  document.querySelectorAll('[data-print]').forEach((element) => element.remove());
 
   const sectionCopy = document.querySelector('.section-copy');
   if (sectionCopy) {
@@ -71,12 +74,12 @@
 
   const updateProgress = () => {
     const max = document.documentElement.scrollHeight - innerHeight;
-    progress.style.width = max > 0 ? `${(scrollY / max) * 100}%` : '0%';
+    if (progress) progress.style.width = max > 0 ? `${(scrollY / max) * 100}%` : '0%';
   };
   addEventListener('scroll', updateProgress, { passive: true });
   updateProgress();
 
-  if (!reduced && matchMedia('(pointer:fine)').matches) {
+  if (!reduced && glow && matchMedia('(pointer:fine)').matches) {
     addEventListener('pointermove', (event) => {
       glow.style.opacity = '1';
       glow.style.left = `${event.clientX}px`;
@@ -93,13 +96,6 @@
     });
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
-
-  document.querySelectorAll('[data-print]').forEach((link) => {
-    link.addEventListener('click', (event) => {
-      event.preventDefault();
-      window.print();
-    });
-  });
 
   document.querySelectorAll('.filter').forEach((button) => {
     button.addEventListener('click', () => {
