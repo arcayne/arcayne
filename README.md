@@ -13,7 +13,7 @@
 
 I work closest to the problems where product strategy, technical judgment and delivery ownership need to stay in the same loop. The projects below show how I turn emerging technology into products that people and developers can actually use.
 
-## Selected public work
+## Selected work
 
 ### [Injective Agent Identity Stack](https://github.com/InjectiveLabs/injective-agent-sdk)
 
@@ -32,6 +32,12 @@ A set of tools that lets AI assistants create, find and manage Injective agent i
 Hands on launch work that made new USDC grid trading markets available in Helix. I corrected market names, linked each market to the right contract on chain and updated the files used by production and staging.
 
 **Public examples:** [market mapping update](https://github.com/InjectiveLabs/injective-lists/pull/402) · [seven new USDC markets](https://github.com/InjectiveLabs/injective-lists/pull/403)
+
+### Injective Product OS
+
+An internal AI native product operating system that helps teams move from research and opportunity assessment to product requirements, decisions and delivery updates with a consistent quality bar.
+
+**My role:** Designed the workflows and operating model, then applied them across several Injective product areas to shorten the path from an early idea to an executable plan.
 
 ### [Agentic Delivery Playbook](https://github.com/arcayne/agentic-delivery-playbook)
 
